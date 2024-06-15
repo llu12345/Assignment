@@ -8,6 +8,7 @@ public class GroupColumnType {
     public static final GroupColumnType TEAMCODE = new GroupColumnType("teamcode");
     public static final GroupColumnType PROJECTCODE = new GroupColumnType("projectcode");
 
+    @Override
     public String toString() {
         return _columnName;
     }
