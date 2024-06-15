@@ -3,12 +3,14 @@ assignment
 
 ## How to Run:
 * Steps to download and run:
-# git clone https://github.com/llu12345/Assignment.git
-# cd Assignment
-# mvn verify
+```
+> git clone https://github.com/llu12345/Assignment.git
+> cd Assignment
+> mvn verify
+```
    - it first completes all the junit tests (ReportTest.java),
    - then it runs the integration test (ReportWithTestsIT.java) which prints out the solution for the assignment like the following:
-
+```
 Running oracle.aconex.assignment.ReportWithTestsIT
 ================= Run Integration ===================
 ----------------------- Input -----------------------
@@ -39,10 +41,4 @@ eu_west:       3244132,3244332
 us_west:       1233456,1223456
 us_east:       2343225
 =====================================================
-
-
-## Code Diagram
-
-UniqueCustomerIdReport ---extends--> GroupByColumnReport ---extends--> Report
-                                          ^
-   BuilddurationReport ------extends------|
+```
